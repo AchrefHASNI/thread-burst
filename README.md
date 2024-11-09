@@ -22,6 +22,9 @@ To use the ThreadPool and MemoryCache classes in your Node.js project, follow th
 ```bash
 npm install thread-burst
 ``` 
+```bash
+yarn add thread-burst
+``` 
 
 2. Alternatively, you can download the files and integrate them into your project.
 
