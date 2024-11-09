@@ -1,0 +1,46 @@
+{
+  "name": "thread-burst",
+  "version": "1.0.0",
+  "description": "A Node.js library for multithreaded performance boosting with in-memory caching, this library aims to increase performance.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+  "build": "tsc",
+  "start": "node dist/index.js",
+  "test": "jest",
+  "test:watch": "jest --watch",
+  "clean": "rm -rf dist",
+  "prepare": "npm run build",
+  "prepublishOnly": "npm run build"
+},
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/AchrefHASNI/thread-burst.git"
+  },
+  "keywords": [
+    "nodejs",
+    "multithreading",
+    "performance",
+    "worker-threads",
+    "cache",
+    "threadpool",
+    "memory-cache"
+  ],
+  "author": "Achref Hasni",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/jest": "^29.5.14",
+    "@types/node": "^20.0.0",
+    "jest": "^29.7.0",
+    "ts-jest": "^29.2.5",
+    "typescript": "^5.0.0"
+  },
+  "engines": {
+    "node": ">=12.0.0"
+  },
+  "files": [
+    "dist",
+    "src",
+    "README.md"
+  ]
+}
